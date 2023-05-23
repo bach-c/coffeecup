@@ -30,9 +30,6 @@
     "coffeecup": "./bin/coffeecup"
   },
   "main": "./lib/coffeecup",
-  "engines": {
-    "node": "0.4.x || 0.6.x || 0.8.x || 0.10.x"
-  },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
