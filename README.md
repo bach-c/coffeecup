@@ -1,3 +1,9 @@
+I have removed the dependency to stylus, what was horribly outdated.
+Then I fixed compile problems with the newer CoffeeScript version.
+
+
+
+
 # CoffeeCup <☕/>
 ## Markup as CoffeeScript
 
