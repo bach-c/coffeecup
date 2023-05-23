@@ -386,8 +386,8 @@ coffeecup.render = (template, data = {}, options = {}) ->
   data[k] = v for k, v of options
   data.cache ?= off
 
-  if not window?
-    data.stylus = require 'stylus'
+  #if not window?
+  #  data.stylus = require 'stylus'
 
   # Do not optimize templates if the cache is disabled, as it will slow
   # everything down considerably.
@@ -400,7 +400,7 @@ coffeecup.render = (template, data = {}, options = {}) ->
 
 unless window?
   coffeecup.__express = (path, options = {}, fn) ->
-    options.stylus = require 'stylus'
+    #options.stylus = require 'stylus'
     if options.optimize and not options.cache then options.optimize = no
 
     render = (tpl) ->
